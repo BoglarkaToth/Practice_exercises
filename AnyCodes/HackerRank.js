@@ -280,24 +280,30 @@ function subArray() {
           arr.push(bigArray[j]);
         }
       }
-      // ?s
-      // if (arr.length !== 1) {
-      //   chunkedArray.push(arr);
-      // }
-      // ha nem akarom az egyforma számú arr kiírni:
+
       if (arr.indexOf(current + 1) !== -1) {
         chunkedArray.push(arr);
-      }
-
-      // missing...
-      for (let k = 0; k < chunkedArray.length; k++) {
-        long = Math.max(chunkedArrayy)
+        long = arr.length;
+        console.log(long);
       }
 
     }
   }
   console.log(chunkedArray);
-  console.log(long);
 }
 
 subArray();
+
+
+
+
+
+
+
+
+
+// ?
+      // if (arr.length !== 1) {
+      //   chunkedArray.push(arr);
+      // }
+      // ha nem akarom az egyforma számú arr kiírni:
