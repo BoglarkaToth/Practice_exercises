@@ -1,2 +1,2 @@
 ﻿# Projects_GreenFox
-Processing continue during the project time in GreenFox
+Processing continue with small projects/tutorials
