@@ -267,7 +267,7 @@ let long;
 
 function subArray() {
   bigArray.sort((a, b) => a - b);
-  console.log(bigArray);
+  // console.log(bigArray);
 
   let current;
   for (let i = 0; i < bigArray.length; i++) {
@@ -284,26 +284,42 @@ function subArray() {
       if (arr.indexOf(current + 1) !== -1) {
         chunkedArray.push(arr);
         long = arr.length;
-        console.log(long);
+        //console.log(long);
       }
 
     }
   }
-  console.log(chunkedArray);
+  // console.log(chunkedArray);
 }
 
 subArray();
 
+// ----------------------------------------------------------------------
 
+let a = 10;
+let b = 14;
+let k = 6;
 
+function beautifulDays() {
+  let arrB = [];
+  let iR;
+  let divisored;
+  let arrR = [];
 
+  for (let i = a; i <= b; i++) {
+    arrB.push(i);
+    iR = i.toString().split("").reverse().join("");
+    divisored = (i - iR) / k;
 
+    if (Number.isInteger(divisored)) {
+      arrR.push(i)
+    }
 
+  }
+  console.log(arrR);
+}
 
+beautifulDays()
 
+// ----------------------------------------------------------------------
 
-// ?
-      // if (arr.length !== 1) {
-      //   chunkedArray.push(arr);
-      // }
-      // ha nem akarom az egyforma számú arr kiírni:
