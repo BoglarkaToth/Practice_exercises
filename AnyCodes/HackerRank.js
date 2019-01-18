@@ -316,10 +316,30 @@ function beautifulDays() {
     }
 
   }
-  console.log(arrR);
+  // console.log(arrR);
 }
 
 beautifulDays()
 
 // ----------------------------------------------------------------------
 
+let numberOfCycle = 5;
+let initialHeight = 1;
+
+function utopianTree() {
+  let currentHeight;
+  currentHeight = initialHeight;
+
+  for (let i = 1; i <= numberOfCycle; i++) {
+    if (i % 2) {
+      currentHeight = currentHeight * 2;
+    } else if (i) {
+      currentHeight = currentHeight + 1;
+    }
+  }
+  // console.log(currentHeight);
+}
+
+utopianTree();
+
+// ----------------------------------------------------------------------
