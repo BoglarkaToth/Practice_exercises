@@ -1,0 +1,22 @@
+body{
+  background-color: yellowgreen;
+}
+#wrapping{
+width: 80px;
+border: 1px;
+padding: 70px;
+background-color: grey;
+}
+
+
+#form {
+ 
+}
+
+#question{
+width: 50%;
+}
+
+#answer{
+  width: 100%;
+}
