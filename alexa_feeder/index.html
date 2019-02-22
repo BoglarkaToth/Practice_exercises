@@ -2,27 +2,23 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
-  <script src=".js"></script>
-  <style></style>
+  <!-- <script type="text/javascript" src="/assets/js/script.js"></script> -->
 </head>
 
 <body>
   <div id="wrapping">
 
-    <!-- If the action attribute is omitted, the action is set to the current page. -->
-    <!-- _blank: to make the form result open in a new browser tab -->
-    <!-- The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data -->
-    <!-- <form action="/server.js" target="_blank" method="post"> -->
-    <form id="form">
+    <form id="form" action="./answeres" method="post">
 
       <label for="question">Question:</label></br>
       <textarea type="text" id="question" placeholder="Write question!"></textarea></br>
 
       <label for="answer">Answer:</label></br>
-      <textarea type="text" id="answer" placeholder="Write answer!"></textarea></br>
+      <textarea type="text" id="answer" placeholder="Write answer!"></textarea></br></br>
 
-      <input type="submit " value="Submit ">
+      <input type="submit" value="Submit">
 
     </form>
   </div>
